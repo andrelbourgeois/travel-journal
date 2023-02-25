@@ -1,0 +1,7 @@
+travels [
+    {
+
+    }
+]
+
+export default travels
