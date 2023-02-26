@@ -1,7 +1,7 @@
 function Header() {
     return(
         <div className="Header">
-            <img src={require('./logo.png')} alt="website logo"/>
+            <img className="App-logo" src={require('./logo.png')} alt="website logo"/>
             <h1>
                 Travel Journal
             </h1>

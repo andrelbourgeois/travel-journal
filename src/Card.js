@@ -1,13 +1,10 @@
 function Card(props) {
     return (
         <div className="Card">
-            {/* props
-
-                   |   pin icon | location | map link
-            image  |   dates (start - end)
-                   |   story/description
-
-            */}
+            <div className='Img-box'>
+                <img className="Card-img" src={require('./bordeaux.jpg')} alt="card image"/>
+            </div>
+            
         </div>
     )
 }
