@@ -1,5 +1,8 @@
 travels [
-    {
+    { CardLocation: {
+        Country: "",
+        Place: ""
+    }
 
     }
 ]
