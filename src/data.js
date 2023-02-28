@@ -1,8 +1,12 @@
 travels [
-    { CardLocation: {
-        Country: "",
-        Place: ""
-    }
+    { location: {
+        country: "",
+        place: "",
+        map: ""
+    },
+    img: "",
+    date: "",
+    story: ""
 
     }
 ]
