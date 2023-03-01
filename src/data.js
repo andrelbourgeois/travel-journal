@@ -21,8 +21,7 @@ travels [
         img: "",
         date: "",
         story: ""
-    
-    },
+    }
 ]
 
 export default travels
