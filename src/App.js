@@ -3,12 +3,20 @@ import Card from './Card.js'
 import './App.css';
 
 function App() {
-  return (
-    <div className='App'>
-        <Header />
-        <Card />
-    </div>
-  );
+  const trips = data.map
+  (item =>
+    {
+      return (
+        <div className='App'>
+            <Header />
+            <Card 
+              key={item.id}
+              item={item}
+            />
+        </div>
+      );
+    }
+  )
 }
 
 export default App;
