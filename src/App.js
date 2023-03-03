@@ -1,21 +1,14 @@
 import Header from './Header.js'
-import Card from './Card.js'
+import Entries from './Entries'
 import './App.css';
 
+
 function App() {
-  const trips = data.map
-  (item =>
-    {
-      return (
-        <div className='App'>
-            <Header />
-            <Card 
-              key={item.id}
-              item={item}
-            />
-        </div>
-      );
-    }
+  return (
+    <div className='App'>
+      <Header />
+      <Entries />
+    </div>
   )
 }
 

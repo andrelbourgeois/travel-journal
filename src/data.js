@@ -1,12 +1,12 @@
-travels [
+export default [
     {
         id: 0,
         location: {
             country: "France",
             place: "Bordeaux",
-            map: "insert map link"
+            map: "https://goo.gl/maps/qmGDEEL4LeMLJgTK7"
         },
-        img: "insert image link",
+        img: "bordeaux.jpg",
         date: "7 September 2019 - 22 December 2019",
         story: "Something about Bordeaux"
 
@@ -23,5 +23,3 @@ travels [
         story: ""
     }
 ]
-
-export default travels
