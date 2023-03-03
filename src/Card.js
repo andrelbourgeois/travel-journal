@@ -15,10 +15,9 @@ function Card(props) {
                 </h3>
                 <strong><p className='Card-date'>{props.item.date}</p></strong>
                 <p className='Card-story'>{props.item.story}</p>
-            </div>
-            
+            </div> 
         </div>
-    )
+    );
 }
 
 export default Card;

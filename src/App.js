@@ -1,5 +1,5 @@
-import Header from './Header.js'
-import Entries from './Entries'
+import Header from './Header.js';
+import Entries from './Entries';
 import './App.css';
 
 
@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Entries />
     </div>
-  )
+  );
 }
 
 export default App;
