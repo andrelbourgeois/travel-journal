@@ -10,11 +10,13 @@ function Card(props) {
                     <h4 className='Card-country'>{props.item.location.country}</h4>
                     <a className='Card-location' href={props.item.location.map}>View on Google Map</a>
                 </div>
-                <h1 className='Card-place'>
-                    {props.item.location.place}
-                </h1>
-                <strong><p className='Card-date'>{props.item.date}</p></strong>
-                <p className='Card-story'>{props.item.story}</p>
+                <div className='Card-bottom'>
+                    <h1 className='Card-place'>
+                        {props.item.location.place}
+                    </h1>
+                    <strong><p className='Card-date'>{props.item.date}</p></strong>
+                    <p className='Card-story'>{props.item.story}</p>
+                </div>
             </div> 
         </div>
     );
