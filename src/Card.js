@@ -7,12 +7,12 @@ function Card(props) {
             <div className='Content-box'>
                 <div className='Content-top'>
                     <img className="Location-icon" src={require('./location.png')} alt="location icon" />
-                    <h5 className='Card-country'>{props.item.location.country}</h5>
+                    <h4 className='Card-country'>{props.item.location.country}</h4>
                     <a className='Card-location' href={props.item.location.map}>View on Google Map</a>
                 </div>
-                <h3 className='Card-place'>
+                <h1 className='Card-place'>
                     {props.item.location.place}
-                </h3>
+                </h1>
                 <strong><p className='Card-date'>{props.item.date}</p></strong>
                 <p className='Card-story'>{props.item.story}</p>
             </div> 
