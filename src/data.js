@@ -8,8 +8,7 @@ export default [
         },
         img: "bordeaux.jpg",
         date: "7 September 2019 - 22 December 2019",
-        story: "Something about Bordeaux"
-
+        story: "Something about Bordeaux",
     },
     {
         id: 1,
@@ -20,8 +19,7 @@ export default [
         },
         img: "bordeaux.jpg",
         date: "7 September 2019 - 22 December 2019",
-        story: "Something about Bordeaux"
-
+        story: "Something about Bordeaux",
     },
     {
         id: 2,
@@ -32,6 +30,6 @@ export default [
         },
         img: "",
         date: "",
-        story: ""
+        story: "",
     }
 ]

@@ -1,6 +1,30 @@
-//import Card from './Card.js'
+import Card from './Card.js'
 import Card2 from './Card2.js'
 import data from "./data.js"
+
+function Entries() {
+    const travels = data.map(item => {
+      return (
+        <Card  
+            key={item.id}
+            item={item}
+        />
+      );
+    }
+  );
+
+  return (
+    <div className='Entries'>
+      {travels}
+    </div>
+  )
+}
+
+
+export default Entries;
+
+
+/*
 
 function Entries() {
       return (
@@ -8,19 +32,4 @@ function Entries() {
       );
 }
 
-export default Entries;
-
-
-/*
-function Entries() {
-    const trips = data.map(item => {
-      return (
-        <Card 
-            key={item.id}
-            item={item}
-        />
-      );
-    }
-  );
-}
 */
