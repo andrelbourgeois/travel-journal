@@ -2,13 +2,13 @@ export default [
     {
         id: 0,
         location: {
-            country: "France",
-            place: "Bordeaux",
-            map: "https://goo.gl/maps/qmGDEEL4LeMLJgTK7"
+            country: "#",
+            place: "#",
+            map: "#"
         },
-        img: "bordeaux.jpg",
-        date: "7 September 2019 - 22 December 2019",
-        story: "Something about Bordeaux",
+        img: "#",
+        date: "#",
+        story: "#",
     },
     {
         id: 1,
@@ -24,12 +24,12 @@ export default [
     {
         id: 2,
         location: {
-            country: "",
-            place: "",
-            map: ""
+            country: "Mexico",
+            place: "Mexico City",
+            map: "#"
         },
-        img: "",
-        date: "",
-        story: "",
-    }
+        img: "#",
+        date: "17 February 2019 - 23 February 2019",
+        story: "Something about Mexico City",
+    },
 ]
