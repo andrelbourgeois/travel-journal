@@ -1,5 +1,4 @@
 import Card from './Card.js'
-import Card2 from './Card2.js'
 import data from "./data.js"
 
 function Entries() {
