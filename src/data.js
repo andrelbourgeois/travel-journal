@@ -26,9 +26,9 @@ export default [
         location: {
             country: "Mexico",
             place: "Mexico City",
-            map: "#"
+            map: "https://goo.gl/maps/qiVTtuFeuRACDmiRA"
         },
-        img: "#",
+        img: "mexico-city.jpg",
         date: "17 February 2019 - 23 February 2019",
         story: "Something about Mexico City",
     },
