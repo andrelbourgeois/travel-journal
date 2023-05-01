@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+# TRAVEL-JOURNAL
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application for an online travel journal. This project was built as part of this free [React Course](https://www.freecodecamp.org/news/free-react-course-2022/) from freeCodeCamp.
+
+## Project Directory
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+- [License](#license)
+
+## Built With
+This project was built with the following technologies, in your preferred development environment.
+- Javascript
+- HTML5
+- CSS3
+- ReactJS
+
+## Getting Started
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## License
+This project is licensed under the MIT License.
+
+<!--
+
+## Getting Started with Create React App
 
 ## Available Scripts
 
@@ -68,3 +90,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+-->
